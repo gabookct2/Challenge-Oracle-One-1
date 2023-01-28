@@ -1,0 +1,321 @@
+body {
+    width: 100%;
+    background: #44021e;
+}
+
+header {
+    width: 68%;
+}
+
+.logo {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: 68%;
+    padding: auto;
+}
+
+.texto {
+    box-sizing: border-box;
+    margin: 40px;
+    resize: none;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    /* or 48px */
+
+    background: transparent;
+    border: #44021e;
+
+    color: white
+}
+
+.botones {
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bencriptar:hover {
+    background: #231672e0;
+    box-shadow: 0 0 10px #740074, 0 0 40px #740074, 0 0 80px #740074;
+}
+
+.bencriptar:hover .tencriptar {
+    font-size: 18px;
+}
+
+.bencriptar {
+    align-items: center;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0b0725e0;
+    border-radius: 24px;
+}
+
+.tencriptar {
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* White */
+
+    color: #afafaf;
+}
+
+.bdesencriptar:hover {
+    background: #ffffff;
+    box-shadow: 0 0 10px #740074, 0 0 40px #740074, 0 0 80px #740074;
+}
+
+.bdesencriptar:hover .tdesencriptar {
+    font-size: 18px;
+}
+
+.bdesencriptar {
+    /* Auto layout */
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    background: #afafaf;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0b0725e0;
+    border-radius: 24px;
+}
+
+.tdesencriptar {
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+    color: #0b0725e0;
+}
+
+aside {
+    position: absolute;
+    float: right;
+    top: 20px;
+    right: 30px;
+    box-sizing: border-box;
+}
+
+.rectangulo {
+    position: relative;
+    width: 400px;
+    height: 630px;
+
+    /* background */
+    background-image: radial-gradient(#ff9b37 1px, transparent 1px);
+    background-size: 18px 18px;
+    background-color: #44021e;
+    box-shadow: -15.5px 23px 17.5px 7px #0b0725e0;
+    border-radius: 32px;
+}
+
+.textoD {
+    position: absolute;
+    margin-top: 10%;
+    width: 250px;
+    height: 75%;
+    resize: none;
+    border: transparent;
+    left: 80px;
+    background: transparent;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+
+}
+
+.pmuñeco {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    left: 70px;
+    top: 10%;
+}
+
+.textos {
+    position: absolute;
+    left: 30px;
+    top: 55%;
+}
+
+.texto1 {
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #ffffff;
+}
+
+.texto2 {
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #ffffff;
+}
+
+.btn-copiar {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20px;
+    left: 30px;
+}
+
+.copiar {
+    background: #afafaf;
+
+    /* Auto layout */
+
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0b0725e0;
+    border-radius: 24px;
+}
+
+.copiar:hover {
+    background: #ffffff;
+    box-shadow: 0 0 10px #740074, 0 0 40px #740074, 0 0 80px #740074;
+}
+
+.copiar:hover .cp {
+    font-size: 18px;
+}
+
+.cp {
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0b0725e0;
+}
+
+footer {
+    position: absolute;
+    box-sizing: border-box;
+    width: 65%;
+}
+
+.redes {
+    position: relative;
+    width: 65%;
+    height: 100px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+.creditos {
+    position: relative;
+    text-align: center;
+    margin-left: 30%;
+    top: 85px;
+}
+
+.logoA {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.links {
+    position: absolute;
+    display: inline-block;
+    width: 65%;
+    right: 0;
+    top: 70px;
+    left: 105%;
+    box-sizing: border-box;
+}
+
+.in {
+    height: 30px;
+    width: 30px;
+}
+
+.git {
+    height: 30px;
+    width: 30px;
+}
+
+.in:hover {
+    box-shadow: 0 0 10px #740074, 0 0 40px #740074, 0 0 80px #740074;
+}
+
+.git:hover {
+    box-shadow: 0 0 10px #740074, 0 0 40px #740074, 0 0 80px #740074;
+}
+
+
+@media screen and (max-width:480px) {}
